@@ -1,0 +1,4 @@
+/home/debian/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/debian/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S "/media/debian/Local Disk/cs/projects/phantom-crypt" -B "/media/debian/Local Disk/cs/projects/phantom-crypt/cmake-build-debug"
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /media/debian/Local Disk/cs/projects/phantom-crypt/cmake-build-debug

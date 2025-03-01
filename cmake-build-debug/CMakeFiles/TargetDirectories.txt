@@ -1,0 +1,3 @@
+/media/debian/Local Disk/cs/projects/phantom-crypt/cmake-build-debug/CMakeFiles/phantom_crypt.dir
+/media/debian/Local Disk/cs/projects/phantom-crypt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/debian/Local Disk/cs/projects/phantom-crypt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
