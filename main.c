@@ -3,13 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include "validation.h"
-
-struct file
-{
-    char *filename;
-    size_t file_len;
-    char *binary_content;
-};
+#include "xor_encryption.h"
 
 int main(void)
 {
@@ -49,7 +43,7 @@ int main(void)
         path_len = strlen(path_to_file);
         unencrypted_file = fopen(path_to_file, "r+");
     }
-
+    encrypt_with_xor(unencrypted_file);
 
     printf("Filename: %s\n", path_to_file);
     return 0;

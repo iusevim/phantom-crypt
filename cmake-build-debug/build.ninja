@@ -61,6 +61,18 @@ build CMakeFiles/phantom_crypt.dir/validation.c.o: C_COMPILER__phantom_crypt_uns
   OBJECT_DIR = CMakeFiles/phantom_crypt.dir
   OBJECT_FILE_DIR = CMakeFiles/phantom_crypt.dir
 
+build CMakeFiles/phantom_crypt.dir/xor_encryption.c.o: C_COMPILER__phantom_crypt_unscanned_Debug /media/debian/Local$ Disk/cs/projects/phantom-crypt/xor_encryption.c || cmake_object_order_depends_target_phantom_crypt
+  DEP_FILE = CMakeFiles/phantom_crypt.dir/xor_encryption.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/phantom_crypt.dir
+  OBJECT_FILE_DIR = CMakeFiles/phantom_crypt.dir
+
+build CMakeFiles/phantom_crypt.dir/generate_key.c.o: C_COMPILER__phantom_crypt_unscanned_Debug /media/debian/Local$ Disk/cs/projects/phantom-crypt/generate_key.c || cmake_object_order_depends_target_phantom_crypt
+  DEP_FILE = CMakeFiles/phantom_crypt.dir/generate_key.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/phantom_crypt.dir
+  OBJECT_FILE_DIR = CMakeFiles/phantom_crypt.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target phantom_crypt
@@ -69,7 +81,7 @@ build CMakeFiles/phantom_crypt.dir/validation.c.o: C_COMPILER__phantom_crypt_uns
 #############################################
 # Link the executable phantom_crypt
 
-build phantom_crypt: C_EXECUTABLE_LINKER__phantom_crypt_Debug CMakeFiles/phantom_crypt.dir/main.c.o CMakeFiles/phantom_crypt.dir/validation.c.o
+build phantom_crypt: C_EXECUTABLE_LINKER__phantom_crypt_Debug CMakeFiles/phantom_crypt.dir/main.c.o CMakeFiles/phantom_crypt.dir/validation.c.o CMakeFiles/phantom_crypt.dir/xor_encryption.c.o CMakeFiles/phantom_crypt.dir/generate_key.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/phantom_crypt.dir
   POST_BUILD = :

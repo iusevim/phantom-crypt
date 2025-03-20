@@ -7,4 +7,3 @@
 
 #endif //VALIDATION_H
 bool is_valid_filename(const char *filename, const size_t file_len);
-
